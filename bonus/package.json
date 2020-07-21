@@ -1,0 +1,15 @@
+{
+  "name": "@fczbkk/webpack-example",
+  "version": "1.0.0",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "legacyJquery": "npm:jquery@^2.0.0",
+    "modernJquery": "npm:jquery@^3.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+$baseColor: yellow;
+
+body {
+  // variable
+  background: $baseColor;
+
+  // nesting
+  div {
+    border: 1px solid red;
+  }
+}
+
+// autoprefixer
+::placeholder {
+  color: gray;
+}
+
